@@ -1,0 +1,67 @@
+body{
+  box-sizing: border-box;
+}
+.insiders-section {
+  background: #ffffff;
+}
+
+/* Card border */
+.insiders-card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Left logo panel */
+.insiders-logo {
+  background: #f3e8ff;
+}
+
+/* Accenture mark (placeholder) */
+.accenture-logo {
+  font-size: 96px;
+  font-weight: 700;
+  color: #7c3aed;
+}
+
+/* Slider dots */
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d1d5db;
+}
+
+.dot.active {
+  background: #7c3aed;
+}
+
+/* Arrow buttons */
+.nav-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn.active {
+  background: #7c3aed;
+}
+
+.nav-btn.active svg {
+  color: #ffffff;
+}
+
+/* Case study link */
+.case-study-link {
+  color: #7c3aed;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.img-fluid-custom {
+  max-width: 150px;
+  height: auto;
+}

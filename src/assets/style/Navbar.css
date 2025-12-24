@@ -1,0 +1,42 @@
+/* Navbar base */
+.lyzr-navbar {
+  background-color: #fff;
+  padding: 12px 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  z-index: 1000;
+}
+
+/* Logo */
+.nav-logo {
+  height: 42px;
+}
+
+/* Nav links */
+.lyzr-navbar .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f2937;
+  transition: color 0.2s ease;
+}
+
+.lyzr-navbar .nav-link:hover {
+  color: #7c3aed;
+}
+
+/* CTA container */
+.nav-cta {
+  align-items: center;
+}
+
+/* Mobile */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  .nav-cta {
+    justify-content: center;
+    margin-top: 16px;
+  }
+}

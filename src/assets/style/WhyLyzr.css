@@ -1,0 +1,43 @@
+/* Outer section spacing handled by Bootstrap */
+.why-lyzr-section {
+  background: #ffffff;
+}
+
+/* Light purple wrapper */
+.why-lyzr-wrapper {
+  background: #e9e2ff;
+}
+
+/* LEFT CARD – background image + gradient */
+.why-lyzr-gradient {
+  position: relative;
+  overflow: hidden;
+
+  background-image: url("https://www.lyzr.ai/wp-content/uploads/2025/08/card-image_1-e1761640349892.webp"); /* 🔁 replace image path */
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Optional network pattern overlay (like screenshot) */
+.why-lyzr-gradient::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../../assets/images/network-lines.png"); /* optional */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+/* Keep content above overlays */
+.why-lyzr-gradient > * {
+  position: relative;
+  z-index: 1;
+}
+
+.img-fluid-abc{
+    width:100% !important;
+}

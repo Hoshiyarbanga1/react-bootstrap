@@ -1,0 +1,82 @@
+/* Section background */
+.self-serve-section {
+  background: linear-gradient(180deg, #f6f1ff 0%, #ffffff 100%);
+   position: relative;
+  overflow: hidden;
+}
+.self-serve-section::after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  height: 40px;
+  box-shadow:0 28px 40px rgba(0, 0, 0, 0.18), inset 0 -6px 12px rgba(255, 255, 255, 0.15);
+  pointer-events: none;
+}
+
+/* Title */
+.self-serve-title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+/* Container height for layering */
+.self-serve-layer {
+  height: 420px;
+}
+
+/* Base image */
+.ui-image {
+  max-width: 1000px;
+  border-radius: 18px;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.15);
+}
+
+/* CENTER (TOP LAYER) */
+.ui-center {
+  left: 10%;
+  top: 120px;
+  transform: rotate(38deg) skew(2deg, 331deg);
+  z-index: 1;
+}
+
+.ui-center:hover,
+.ui-left:hover,
+.ui-right:hover {
+  z-index: 5;
+  transform: scale(1.05) rotate(38deg) skew(2deg, 331deg);
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  cursor: pointer;
+}
+
+/* LEFT IMAGE */
+.ui-left {
+  left: 0%;
+  top: 120px;
+  transform: rotate(38deg) skew(2deg, 331deg);
+  z-index: 1;
+}
+
+/* RIGHT IMAGE */
+.ui-right {
+  left: 60%;
+  top: 120px;
+  transform: rotate(38deg) skew(2deg, 331deg);
+  z-index: 4;
+}
+
+/* RESPONSIVE – STACK ON MOBILE */
+@media (max-width: 991px) {
+  .self-serve-layer {
+    height: auto;
+  }
+
+  .ui-image {
+    position: static !important;
+    transform: none !important;
+    margin: 20px auto;
+    display: block;
+  }
+}

@@ -1,0 +1,74 @@
+/* ===============================
+   WHAT LYZR SOLVES
+================================ */
+
+.lyzr-solves-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #111;
+}
+
+.lyzr-solves-subtitle {
+  font-size: 1.05rem;
+  color: #6b7280;
+  max-width: 520px;
+}
+
+/* Card */
+.solve-card {
+  background: #fafafa;
+  border-radius: 18px;
+  padding: 1.75rem 1.5rem;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.solve-card h5 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #111;
+}
+
+.solve-card p {
+  font-size: 0.95rem;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Top color bar */
+.solve-bar {
+  display: inline-block;
+  width: 35px;
+  height: 6px;
+  /* border-radius: 8px; */
+  margin-bottom: 1rem;
+}
+
+/* Colors */
+.solve-bar.blue {
+  background: #3b82f6;
+}
+
+.solve-bar.red {
+  background: #ef4444;
+}
+
+.solve-bar.green {
+  background: #22c55e;
+}
+
+.solve-bar.brown {
+  background: #a16207;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .lyzr-solves-title {
+    font-size: 2rem;
+  }
+
+  .lyzr-solves-subtitle {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,58 @@
+/* Section title */
+.industry-slider-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+/* Dots positioning */
+.slider-dots {
+  bottom: 24px;
+}
+
+/* Dot style */
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d1d5db;
+}
+
+.dot.active {
+  width: 22px;
+  border-radius: 20px;
+  background: #7c3aed;
+}
+
+/* Arrows positioning */
+.slider-arrows {
+  bottom: 16px;
+  right: 16px;
+}
+
+/* Arrow button */
+.slider-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+/* Active arrow */
+.slider-btn.active {
+  background: #7c3aed;
+}
+
+.slider-btn svg {
+  color: #7c3aed;
+}
+
+.slider-btn.active svg {
+  color: #ffffff;
+}

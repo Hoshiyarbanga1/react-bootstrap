@@ -1,0 +1,68 @@
+.live-agent-btn {
+  position: relative;
+  background: linear-gradient(180deg, #FFE6CC, #FFD1A3);
+  color: #E06A00;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 999px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* 🔁 Rotating border */
+.live-agent-btn::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 999px;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    #ff9f43 60deg,
+    transparent 120deg
+  );
+  animation: rotateBorder 2.5s linear infinite;
+  z-index: -1;
+}
+
+/* Inner mask to create border-only effect */
+.live-agent-btn::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: linear-gradient(180deg, #FFE6CC, #FFD1A3);
+  border-radius: 999px;
+  z-index: -1;
+}
+
+/* 🟠 Hover → full border visible */
+.live-agent-btn:hover::before {
+  animation: none;
+  background: linear-gradient(90deg, #ff9f43, #ff7a18);
+}
+
+/* ✨ Hover lift */
+.live-agent-btn:hover {
+  box-shadow: 0 8px 20px rgba(255, 140, 0, 0.45);
+  transform: translateY(-1px);
+}
+
+.sparkle {
+  font-size: 16px;
+}
+
+/* Rotation animation */
+@keyframes rotateBorder {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
