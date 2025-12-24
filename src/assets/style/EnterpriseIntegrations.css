@@ -2,7 +2,6 @@
   background: #ffffff;
 }
 
-/* Integration pills */
 .integration-pill {
   display: inline-flex;
   align-items: center;
@@ -16,7 +15,6 @@
   white-space: nowrap;
 }
 
-/* CTA card */
 .cta-card {
   background: #ffffff;
   border: 2px solid #ececec;

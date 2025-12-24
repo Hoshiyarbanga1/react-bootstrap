@@ -1,4 +1,3 @@
-// components/UseCaseCTA.jsx
 import "../../assets/style/UseCaseCTA.css";
 import UseCaseHeader from "../ui/UseCaseHeader";
 import UseCaseText from "../ui/UseCaseText";

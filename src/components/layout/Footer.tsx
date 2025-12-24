@@ -8,7 +8,7 @@ function Footer() {
     "About Us",
     "Wall of Love",
     "Pricing",
-    "Lyzr raises Series A 🔥",
+    "Lyzr raises Series A",
     "News",
     "Contact Us",
     "Careers",

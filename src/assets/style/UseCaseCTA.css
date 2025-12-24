@@ -1,5 +1,3 @@
-/* useCaseCta.css */
-
 .usecase-cta-section {
   background: #ffffff;
 }
@@ -27,11 +25,6 @@
   line-height: 1.6;
 }
 
-
-
-
-
-/* Responsive */
 @media (max-width: 768px) {
   .usecase-cta-box {
     padding: 50px 24px;

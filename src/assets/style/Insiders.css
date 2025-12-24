@@ -5,24 +5,20 @@ body{
   background: #ffffff;
 }
 
-/* Card border */
 .insiders-card {
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-/* Left logo panel */
 .insiders-logo {
   background: #f3e8ff;
 }
 
-/* Accenture mark (placeholder) */
 .accenture-logo {
   font-size: 96px;
   font-weight: 700;
   color: #7c3aed;
 }
 
-/* Slider dots */
 .dot {
   width: 8px;
   height: 8px;
@@ -34,7 +30,6 @@ body{
   background: #7c3aed;
 }
 
-/* Arrow buttons */
 .nav-btn {
   width: 36px;
   height: 36px;
@@ -54,7 +49,6 @@ body{
   color: #ffffff;
 }
 
-/* Case study link */
 .case-study-link {
   color: #7c3aed;
   font-size: 14px;

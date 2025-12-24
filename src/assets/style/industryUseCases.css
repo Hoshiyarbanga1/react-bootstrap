@@ -1,16 +1,13 @@
-/* Section title */
 .industry-slider-title {
   font-size: 28px;
   font-weight: 600;
   color: #1e1e1e;
 }
 
-/* Dots positioning */
 .slider-dots {
   bottom: 24px;
 }
 
-/* Dot style */
 .dot {
   width: 8px;
   height: 8px;
@@ -24,13 +21,11 @@
   background: #7c3aed;
 }
 
-/* Arrows positioning */
 .slider-arrows {
   bottom: 16px;
   right: 16px;
 }
 
-/* Arrow button */
 .slider-btn {
   width: 42px;
   height: 42px;
@@ -44,12 +39,17 @@
   cursor: pointer;
 }
 
-/* Active arrow */
 .slider-btn.active {
   background: #7c3aed;
 }
 
 .slider-btn svg {
+  color: #7c3aed;
+}
+
+.slider-btn.active svg {
+  color: #ffffff;
+}
   color: #7c3aed;
 }
 

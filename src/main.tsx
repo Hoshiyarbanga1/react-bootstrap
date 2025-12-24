@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import './index.css'
-import App from './App.tsx'
+import App from './App';
+// import GlowyButton from './components/ui/LiveAgentButton.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

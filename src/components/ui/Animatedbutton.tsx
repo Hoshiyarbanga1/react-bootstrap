@@ -1,16 +1,17 @@
-import '../../assets/style/Button.css'
-// import Navbar from './components/layout/Navbar'
+import "../../assets/style/Button.css";
 
 function Animatedbutton() {
-
   return (
-    <>
-        <button className="btn live-agent-btn">
-    Live Agent Tracker
-    <span className="sparkle">✨</span>
-  </button>
-    </>
-  )
+    <div className="w-100">
+      <button className="live-agent-btn">
+      <span className="btn-content">
+        Live Agent Tracker
+        <span className="sparkle">✨</span>
+      </span>
+    </button>
+    </div>
+    
+  );
 }
 
-export default Animatedbutton
+export default Animatedbutton;

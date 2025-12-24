@@ -1,9 +1,9 @@
-/* Background */
+.get-started-section {
 .get-started-section {
   background: #f6f8ff;
 }
 
-/* Timeline */
+.step-number {
 .step-number {
   font-size: 28px;
   font-weight: 700;
@@ -24,7 +24,7 @@
   z-index: 2;
 }
 
-/* Mobile */
+}
 @media (max-width: 991px) {
   .timeline-curve {
     display: none;

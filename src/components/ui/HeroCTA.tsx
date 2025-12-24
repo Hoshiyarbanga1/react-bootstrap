@@ -1,4 +1,4 @@
-import { ArrowUpRight } from "lucide-react";
+import GradientCTA from "./GradientCTA";
 
 export default function HeroCTA() {
   return (
@@ -13,9 +13,7 @@ export default function HeroCTA() {
         </div>
 
         <div className="col-12 col-md-auto">
-          <button className="btn hero-btn w-100 fw-semibold fs-6">
-            Talk to us <ArrowUpRight size={16} />
-          </button>
+          <GradientCTA />
         </div>
       </div>
     </div>

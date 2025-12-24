@@ -21,14 +21,12 @@ section.py-5 img:hover {
   opacity: 1;
 }
 
-/* Reduce gap on mobile */
 @media (max-width: 768px) {
   section.py-5 .row {
     gap: 1.5rem !important;
   }
 }
 
-/* ---------- Pre-built agents section ---------- */
 .agent-tabs {
   background: #f4f3ff;
   padding: 0.5rem;
@@ -58,7 +56,6 @@ section.py-5 img:hover {
   box-shadow: 0 6px 16px rgba(124, 58, 237, 0.35);
 }
 
-/* ---------- Agent cards ---------- */
 .agent-card {
   height: 120px;
   border-radius: 20px;
@@ -73,13 +70,10 @@ section.py-5 img:hover {
   border: 2px solid transparent;
 }
 
-
-/* Wider card */
 .agent-card.wide {
   height: 120px;
 }
 
-/* ---------- Border colors ---------- */
 .border-green {
   border-color: #86efac;
 }
@@ -116,7 +110,6 @@ section.py-5 img:hover {
   border-color: #fed7aa;
 }
 
-/* ---------- Left text column ---------- */
 section .fw-bold {
   font-size: 2.5rem;
   line-height: 1.15;
@@ -128,7 +121,6 @@ section p.text-muted {
   max-width: 340px;
 }
 
-/* ---------- CTA button ---------- */
 .btn-purple {
   background: linear-gradient(135deg, #7c3aed, #a855f7);
   color: #fff;
@@ -141,7 +133,6 @@ section p.text-muted {
   opacity: 0.9;
 }
 
-/* ---------- Responsive tweaks ---------- */
 @media (max-width: 992px) {
   .agent-tabs {
     flex-wrap: wrap;

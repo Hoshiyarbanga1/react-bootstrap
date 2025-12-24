@@ -2,6 +2,7 @@ import "../../assets/style/Trusted.css";
 import LogoGrid from "../ui/LogoGrid";
 import AgentTabs from "../ui/AgentTabs";
 import AgentCard from "../ui/AgentCard";
+import GradientCTA from "../ui/GradientCTA";
 
 const topLogos = [
   "https://cdn-ileecnj.nitrocdn.com/JHsXwyfxJOYTadtVKgrLqQCwYuZZjQpq/assets/images/optimized/rev-72cea9a/www.lyzr.ai/wp-content/uploads/2025/08/Frame-53534.webp",
@@ -66,7 +67,7 @@ function Trusted() {
               cloud from day one.
             </p>
 
-            <button className="btn btn-purple px-4 py-2">Talk to us ↗</button>
+            <GradientCTA />
           </div>
 
           <div className="col-lg-8">

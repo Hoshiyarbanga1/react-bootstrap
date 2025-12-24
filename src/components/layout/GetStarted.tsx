@@ -1,7 +1,7 @@
 import "../../assets/style/GetStarted.css";
 import GetStartedImage from "../ui/GetStartedImage";
-import GetStartedCTA from "../ui/GetStartedCTA";
 import AckGrid from "../ui/AckGrid";
+import GradientCTA from "../ui/GradientCTA";
 
 const heroImg =
   "https://cdn-ileecnj.nitrocdn.com/JHsXwyfxJOYTadtVKgrLqQCwYuZZjQpq/assets/images/optimized/rev-72cea9a/www.lyzr.ai/wp-content/uploads/2025/10/how-to-get-stareted-with-lyzr_compressed-2048x703.webp";
@@ -25,7 +25,7 @@ function GetStarted() {
           <GetStartedImage src={heroImg} alt="How to get started with Lyzr" />
         </div>
 
-        <GetStartedCTA />
+        <GradientCTA />
 
         <div className="acknowledgement-section mt-5 pt-5">
           <h3 className="fw-semibold mb-4">Acknowledged across the AI frontier</h3>

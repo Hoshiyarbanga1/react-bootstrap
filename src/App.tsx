@@ -28,8 +28,7 @@ function App() {
       <GetStarted />
       <Insiders />
       <SecurityCompliance />
-      <EnterpriseIntegrations />
-      
+      <EnterpriseIntegrations /> 
       <UseCaseCTA />
       <SubscribeStrip />
       <Footer />

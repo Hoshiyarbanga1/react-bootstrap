@@ -1,5 +1,5 @@
 .subscribe-strip {
-  background: #efe4f7; /* light purple strip */
+  background: #efe4f7;
   padding: 36px 0;
 }
 
@@ -15,7 +15,6 @@
   font-size: 14px;
 }
 
-/* Input + button container */
 .subscribe-box {
   background: #fff;
   border-radius: 999px;
@@ -26,7 +25,6 @@
   margin-left: auto;
 }
 
-/* Input */
 .subscribe-input {
   border: none;
   outline: none;
@@ -40,7 +38,6 @@
   color: #aaa;
 }
 
-/* Button */
 .subscribe-btn {
   background: linear-gradient(135deg, #6f3cff, #a855f7);
   border: none;
@@ -53,7 +50,6 @@
   white-space: nowrap;
 }
 
-/* Responsive */
 @media (max-width: 991px) {
   .subscribe-box {
     margin-left: 0;
